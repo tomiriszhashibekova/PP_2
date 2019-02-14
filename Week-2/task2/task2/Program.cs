@@ -10,10 +10,10 @@ namespace task2
 {
     class Program
     {
-        public static bool Prime(int num)
+        public static bool Prime(int num) //craeting the method which check the prime number  
         {
-            bool Isprime = true;
-            if (num == 1)
+            bool Isprime = true; // /making the parameter which is true  at the beginning
+            if (num == 1) //checking one of the case
             {
                 Isprime = false;
             }
@@ -23,11 +23,11 @@ namespace task2
             }
             else
             {
-                for (int i = 2; i < num; i++)
+                for (int i = 2; i < num; i++)  //consider the divisors of the number
                 {
                     if (num % i == 0)
                     {
-                        Isprime = false;
+                        Isprime = false;  // the number has dividers, then it's false; but we need the numbers without dividers, so we break the program
                         break;
                     }
                 }
@@ -36,31 +36,31 @@ namespace task2
         }
         static bool Prime(string s)
         {
-            return Prime(int.Parse(s));
+            return Prime(int.Parse(s)); //convert string to integer
         }
 
         static void Main(string[] args)
         {
 
-            List<string> ans = new List<string>();
-            FileStream fs = new FileStream(@"C:\\pp1\Новая папка\task2.txt", FileMode.Open, FileAccess.Read);
-            StreamReader sr = new StreamReader(fs);
-            string str = sr.ReadLine();
-            string[] str2 = str.Split();
+            List<string> ans = new List<string>();//create the list 
+            FileStream fs = new FileStream(@"C:\\pp1\Новая папка\task2.txt", FileMode.Open, FileAccess.Read); //open file and read
+            StreamReader sr = new StreamReader(fs); //read file"fs" with SR
+            string str = sr.ReadLine(); // read string str
+            string[] str2 = str.Split(); //creating an array with elements of the string type and separating them through spaces
 
-            foreach (var f in str2)
+            foreach (var f in str2) 
             {
-                if (Prime(f))
+                if (Prime(f)) // use the method
                 {
-                    ans.Add(f);
+                    ans.Add(f); // answer write in "F"
                 }
             }
             sr.Close();
             fs.Close();
 
 
-            FileStream neww = new FileStream(@"C:\\pp1\Новая папка\task2_ans.txt", FileMode.Create, FileAccess.Write);
-            StreamWriter fsl = new StreamWriter(neww);
+            FileStream neww = new FileStream(@"C:\\pp1\Новая папка\task2_ans.txt", FileMode.Create, FileAccess.Write); // create new file in given path
+            StreamWriter fsl = new StreamWriter(neww); //// Access to write 
 
             foreach (var t in ans)
             {
