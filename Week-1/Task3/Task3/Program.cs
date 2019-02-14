@@ -11,17 +11,16 @@ namespace Task3
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine()); //converting string line written by keyboard to integer
-            string parts = Console.ReadLine();// creating  an array; each element is divided by backspace
+            string parts = Console.ReadLine();// creating  string 
 
-            string[] parts1 = new string[n];
-            parts1 = parts.Split();
-            int[] arr = new int[n];
-            int[] arr2 = new int[n * 2];
-            //int[] arr3 = new int[n * 2];
-
+            string[] parts1 = new string[n]; // creating array of string 
+            parts1 = parts.Split(); // divide array by space
+            int[] arr = new int[n]; // creating array of integer with n elements
+            int[] arr2 = new int[n * 2]; // creating array of integer with doudle n elements
+            
             for (int i = 0; i < n; i++)
             {
-                arr[i] = int.Parse(parts1[i]);
+                arr[i] = int.Parse(parts1[i]);//converting string line written by keyboard to integer
 
             }
 
