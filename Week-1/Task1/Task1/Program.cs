@@ -9,7 +9,7 @@ namespace Task1
     class Program
     {
 
-
+        // Check
         public static bool Prime(int num) // making the metod for cheking prime numbers
         {
             bool Isprime = false; // making boolean parameter ,which is false
