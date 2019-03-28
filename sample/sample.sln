@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threadSample", "threadSampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickTock", "TickTock\TickTock.csproj", "{C121B9D3-3269-4609-8EA0-C4F91E4D07FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threadSample'S", "threadSample'S\threadSample'S.csproj", "{B3FA40AD-A0D1-4199-A114-B08F4F7EDBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializerFULL", "SerializerFULL\SerializerFULL.csproj", "{896C87F9-3391-4F04-B5E5-226CBE79EABD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{C121B9D3-3269-4609-8EA0-C4F91E4D07FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C121B9D3-3269-4609-8EA0-C4F91E4D07FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C121B9D3-3269-4609-8EA0-C4F91E4D07FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FA40AD-A0D1-4199-A114-B08F4F7EDBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FA40AD-A0D1-4199-A114-B08F4F7EDBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FA40AD-A0D1-4199-A114-B08F4F7EDBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FA40AD-A0D1-4199-A114-B08F4F7EDBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896C87F9-3391-4F04-B5E5-226CBE79EABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896C87F9-3391-4F04-B5E5-226CBE79EABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896C87F9-3391-4F04-B5E5-226CBE79EABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896C87F9-3391-4F04-B5E5-226CBE79EABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
