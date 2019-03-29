@@ -13,25 +13,25 @@ namespace Color
         {
             Thread myThread = new Thread(new ThreadStart(color1));
             myThread.Start();
-            for (int i = 1; i < 100; i++)
+            for (int i = 1; i < 1000; i++)
         {
-                Console.Clear();
                 
-                Console.BackgroundColor = ConsoleColor.Cyan;
+                
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Clear();
-                Console.WriteLine("Green");
+                Console.WriteLine("Cyan");
 
-                Thread.Sleep(100);
+                Thread.Sleep(1000);
         }
             Thread myThread2 = new Thread(new ThreadStart(color2));
             myThread2.Start(); for (int i = 1; i < 100; i++)
             {
+                
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.Clear();
-                Console.BackgroundColor = ConsoleColor.Magenta;
-                Console.Clear();
-                Console.WriteLine("CoCo");
+                Console.WriteLine("Magenta");
 
-                Thread.Sleep(100);
+                Thread.Sleep(1000);
             }
 
             Console.ReadLine();
@@ -41,11 +41,11 @@ namespace Color
         {
             for (int i = 1; i < 100; i++)
             {
-                Console.Clear();
-                Console.BackgroundColor = ConsoleColor.Yellow;
-                Console.Clear();
+               
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                 Console.Clear();
                 Console.WriteLine("Yellow");
-                Thread.Sleep(200);
+                Thread.Sleep(1000);
             }
         }
 
@@ -53,12 +53,12 @@ namespace Color
         {
             for (int i = 1; i < 100; i++)
             {
-                Console.Clear();
+
                 
-                Console.BackgroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
-                Console.WriteLine("Red");
-                Thread.Sleep(200);
+                Console.WriteLine("Green");
+                Thread.Sleep(1000);
             }
         }
     }
