@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threadSample'S", "threadSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializerFULL", "SerializerFULL\SerializerFULL.csproj", "{896C87F9-3391-4F04-B5E5-226CBE79EABD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time", "Time\Time.csproj", "{ACC0B9C6-6F78-4C23-B386-9EABFAA313BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time2", "Time2\Time2.csproj", "{D6C4117D-64F1-46FD-93CB-0FA8E7E938DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{896C87F9-3391-4F04-B5E5-226CBE79EABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{896C87F9-3391-4F04-B5E5-226CBE79EABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{896C87F9-3391-4F04-B5E5-226CBE79EABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC0B9C6-6F78-4C23-B386-9EABFAA313BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC0B9C6-6F78-4C23-B386-9EABFAA313BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC0B9C6-6F78-4C23-B386-9EABFAA313BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC0B9C6-6F78-4C23-B386-9EABFAA313BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C4117D-64F1-46FD-93CB-0FA8E7E938DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C4117D-64F1-46FD-93CB-0FA8E7E938DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C4117D-64F1-46FD-93CB-0FA8E7E938DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C4117D-64F1-46FD-93CB-0FA8E7E938DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
