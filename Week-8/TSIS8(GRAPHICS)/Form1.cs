@@ -88,6 +88,17 @@ namespace TSIS8_GRAPHICS_
             e.Graphics.FillPolygon(penR.Brush, myPointArray12);
             Point[] myPointArray13 = { new Point(360, 240), new Point(400, 240), new Point(380, 280) };
             e.Graphics.FillPolygon(penR.Brush, myPointArray13);
+            //strelka
+            
+            pen.StartCap = LineCap.ArrowAnchor;
+            
+            e.Graphics.DrawLine(pen, 292, 130, 292, 180);
+            //Pen penn = new Pen(Color.Green, 8);
+            //pen.EndCap = LineCap.RoundAnchor;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }

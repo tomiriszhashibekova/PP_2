@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example111", "example111\ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSIS8(GRAPHICS)", "TSIS8(GRAPHICS)\TSIS8(GRAPHICS).csproj", "{6309862A-03B7-4941-85D5-0681353D9575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasTree", "ChristmasTree\ChristmasTree.csproj", "{F67710C3-9A4F-473C-9DFC-2EEA7DBDC4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharic", "sharic\sharic.csproj", "{C7C14F3B-5852-47A6-B955-FD80D912C12D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{6309862A-03B7-4941-85D5-0681353D9575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6309862A-03B7-4941-85D5-0681353D9575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6309862A-03B7-4941-85D5-0681353D9575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67710C3-9A4F-473C-9DFC-2EEA7DBDC4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67710C3-9A4F-473C-9DFC-2EEA7DBDC4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67710C3-9A4F-473C-9DFC-2EEA7DBDC4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67710C3-9A4F-473C-9DFC-2EEA7DBDC4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C14F3B-5852-47A6-B955-FD80D912C12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C14F3B-5852-47A6-B955-FD80D912C12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C14F3B-5852-47A6-B955-FD80D912C12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C14F3B-5852-47A6-B955-FD80D912C12D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

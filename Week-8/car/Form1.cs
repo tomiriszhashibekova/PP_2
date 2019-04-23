@@ -40,5 +40,15 @@ namespace car
             i += 10;
             Refresh();
         }
+
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
