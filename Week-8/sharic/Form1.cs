@@ -37,7 +37,8 @@ namespace sharic
 
             gp.AddEllipse(new Rectangle(25, 75 + i, 10, 10));
             gp.AddEllipse(new Rectangle(65, 75 + i, 10, 10));
-            g.FillPath(new Pen(Color.Red, 2), gp);
+            g.DrawPath(new Pen(Color.Red, 2), gp);
+
         }
     }    }
 

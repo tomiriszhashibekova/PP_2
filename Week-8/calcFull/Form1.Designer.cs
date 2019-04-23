@@ -77,6 +77,8 @@
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -571,11 +573,33 @@
             this.button37.UseVisualStyleBackColor = true;
             this.button37.Click += new System.EventHandler(this.Bi_operations);
             // 
+            // button38
+            // 
+            this.button38.Location = new System.Drawing.Point(436, 388);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(100, 35);
+            this.button38.TabIndex = 49;
+            this.button38.Text = "octtt";
+            this.button38.UseVisualStyleBackColor = true;
+            this.button38.Click += new System.EventHandler(this.Mono_operations);
+            // 
+            // button39
+            // 
+            this.button39.Location = new System.Drawing.Point(437, 427);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(100, 35);
+            this.button39.TabIndex = 50;
+            this.button39.Text = "revFromBI";
+            this.button39.UseVisualStyleBackColor = true;
+            this.button39.Click += new System.EventHandler(this.Mono_operations);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(548, 477);
+            this.Controls.Add(this.button39);
+            this.Controls.Add(this.button38);
             this.Controls.Add(this.button37);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button35);
@@ -684,6 +708,8 @@
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button36;
         private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button39;
     }   
 }
 

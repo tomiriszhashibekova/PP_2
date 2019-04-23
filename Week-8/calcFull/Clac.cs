@@ -103,7 +103,15 @@ namespace calcFull
                     string s = ((Convert.ToString((int)first, 2)));
                     result = int.Parse(s);
                     break;
-                
+                case "octtt":
+                    string a = ((Convert.ToString((int)first, 8)));
+                    result = int.Parse(a);
+                    break;
+                case "revFromBI":
+                    string t = ((Convert.ToString((int)first, 10)));
+                    result = int.Parse(t);
+                    break;
+
             }
             if (entermod == 1) first = result;
             else second = result;
