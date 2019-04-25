@@ -35,11 +35,12 @@
             // timer1
             // 
             this.timer1.Enabled = true;
+            this.timer1.Interval = 30;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.ClientSize = new System.Drawing.Size(806, 431);
             this.Name = "Form1";
             this.ResumeLayout(false);
 

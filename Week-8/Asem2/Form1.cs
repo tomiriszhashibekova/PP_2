@@ -27,13 +27,9 @@ namespace Asem2
         private void timer1_Tick(object sender, EventArgs e)
         {
             g.Clear(Color.White);
-            g.DrawLine(pen, x, y, x1, y1);
-            g.DrawLine(pen, x - 15, y + 15, x, y);
-            g.DrawLine(pen, x1, y1, x1 + 15, y1 + 15);
-            g.DrawLine(pen, x - 15, y + 15, x1 + 15, y1 + 15);
+           
             g.DrawRectangle(pen, x - 30, y + 15, widthofr, heightofr);
-            g.DrawEllipse(pen, x2, y2, 25, 25);
-            g.DrawEllipse(pen, x3, y3, 25, 25);
+            
             x2 += 6;
             y2 += 6;
             x3 += 6;
