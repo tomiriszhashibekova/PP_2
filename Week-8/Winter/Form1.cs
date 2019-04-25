@@ -42,18 +42,16 @@ namespace Winter
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            for (int i = 0; i < 776; i += 5)
+            int i = rd.Next(0, 100);
+            int j = rd.Next(0, 100);
+            int x = rd.Next(1, 10);
+            if (x < 6)
             {
-                int x = rd.Next(1, 1000);
-                if (x < 2)
-                {
-                    cPoint.Add(new Point[] {
-                    new Point (i, 0),
-                    new Point (i - 10, 10),
-                    new Point (i +10, 10)
-                    });
-
-                }
+                cPoint.Add(new Point[] {
+                new Point (i, j),
+                new Point (i - 10,j + 10),
+                new Point (i + 10,j + 10)
+                });
             }
             Refresh();
         }
